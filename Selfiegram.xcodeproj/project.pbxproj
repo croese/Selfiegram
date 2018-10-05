@@ -15,6 +15,8 @@
 		33CC72FC2166DCB4000337A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CC72FA2166DCB4000337A6 /* LaunchScreen.storyboard */; };
 		33CC73072166DCB4000337A6 /* SelfiegramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CC73062166DCB4000337A6 /* SelfiegramTests.swift */; };
 		33CC73122166DCB4000337A6 /* SelfiegramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CC73112166DCB4000337A6 /* SelfiegramUITests.swift */; };
+		33CC73202166DF1C000337A6 /* SelfieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CC731F2166DF1C000337A6 /* SelfieStore.swift */; };
+		33CC73222166E2E7000337A6 /* SelfieStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CC73212166E2E7000337A6 /* SelfieStoreTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		33CC730D2166DCB4000337A6 /* SelfiegramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfiegramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CC73112166DCB4000337A6 /* SelfiegramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfiegramUITests.swift; sourceTree = "<group>"; };
 		33CC73132166DCB4000337A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CC731F2166DF1C000337A6 /* SelfieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieStore.swift; sourceTree = "<group>"; };
+		33CC73212166E2E7000337A6 /* SelfieStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieStoreTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				33CC72F12166DCB2000337A6 /* MasterViewController.swift */,
 				33CC72F32166DCB2000337A6 /* DetailViewController.swift */,
 				33CC72F52166DCB2000337A6 /* Main.storyboard */,
+				33CC731F2166DF1C000337A6 /* SelfieStore.swift */,
 				33CC72F82166DCB4000337A6 /* Assets.xcassets */,
 				33CC72FA2166DCB4000337A6 /* LaunchScreen.storyboard */,
 				33CC72FD2166DCB4000337A6 /* Info.plist */,
@@ -113,6 +118,7 @@
 		33CC73052166DCB4000337A6 /* SelfiegramTests */ = {
 			isa = PBXGroup;
 			children = (
+				33CC73212166E2E7000337A6 /* SelfieStoreTests.swift */,
 				33CC73062166DCB4000337A6 /* SelfiegramTests.swift */,
 				33CC73082166DCB4000337A6 /* Info.plist */,
 			);
@@ -260,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33CC72F42166DCB2000337A6 /* DetailViewController.swift in Sources */,
+				33CC73202166DF1C000337A6 /* SelfieStore.swift in Sources */,
 				33CC72F22166DCB2000337A6 /* MasterViewController.swift in Sources */,
 				33CC72F02166DCB2000337A6 /* AppDelegate.swift in Sources */,
 			);
@@ -270,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33CC73072166DCB4000337A6 /* SelfiegramTests.swift in Sources */,
+				33CC73222166E2E7000337A6 /* SelfieStoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
